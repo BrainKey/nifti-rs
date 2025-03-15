@@ -23,9 +23,9 @@ num-derive = "0.3"
 num-traits = "0.2"
 quick-error = "2.0"
 either = "1.6"
-num-complex = {version = "0.4.3", features=["bytemuck"]} 
+num-complex = { version = "0.4.3", features = ["bytemuck"] }
 rgb = "0.8.36"
-bytemuck = {version = "1.13.1", features=["extern_crate_alloc"]}
+bytemuck = { version = "1.13.1", features = ["extern_crate_alloc"] }
 
 [dependencies.nalgebra]
 optional = true
@@ -33,8 +33,8 @@ version = "0.32"
 
 [dependencies.ndarray]
 optional = true
-version = "0.15"
-features = ["approx-0_5"]
+version = "0.16"
+features = ["approx"]
 
 [dependencies.simba]
 default-features = false
